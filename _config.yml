@@ -7,7 +7,7 @@ permalink: "/blog/:year/:month/:day/:title.html"
 paginate_path: "/blog/page:num/"
 paginate: 5
 timezone: Europe/Amsterdam
-highlighter: pygments
+highlighter: rouge
 repository: Flowable/flowable
 defaults:
 - scope:
@@ -60,7 +60,7 @@ kramdown:
 sass:
   style: :compressed
   sass_dir: _css
-gems:
+plugins:
 - jekyll-redirect-from
 - jekyll-paginate
 - jekyll-sitemap
